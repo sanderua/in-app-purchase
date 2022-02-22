@@ -1,3 +1,8 @@
+## BonnierNews Fork
+This is a fork of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) of Voltrue's [in-app-purchase repo](https://github.com/voltrue2/in-app-purchase) which is the npm package [in-app-purchase](https://www.npmjs.com/package/in-app-purchase).
+
+The original package hasn't been updated since 2019, and the FlatIO fork has introduced some behaviour that we don't want to replicate, hence our own fork. The intention is to keep this fork up to date with security patches only.
+
 ![Logo](https://user-images.githubusercontent.com/2267361/42299566-e25ee852-8046-11e8-9cc3-a776770fcc8e.png)
 
 ©Nobuyori Takahashi < <voltrue2@yahoo.com> >
