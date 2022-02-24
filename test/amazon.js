@@ -217,9 +217,10 @@ describe('#### Amazon ####', function () {
                                 var set = iap.setAmazonValidationHost('fooooooo');
                                 assert.equal(set, true);
                                 var receipt = JSON.parse(data.toString());
-                                iap.validate(iap.AMAZON, receipt, function (error) {
+                                iap.validate(iap.AMAZON, receipt, function (error, errorRes) {
                                         assert.notEqual(error, null);
                                         assert.notEqual(error.message.indexOf('fooooooo'), -1);
+                                        assert.equal(errorRes.sandbox, true);
                                         done();
                                 });
                         });
@@ -239,9 +240,10 @@ describe('#### Amazon ####', function () {
                                 var set = iap.resetAmazonValidationHost();
                                 assert.equal(set, true);
                                 var receipt = JSON.parse(data.toString());
-                                iap.validate(iap.AMAZON, receipt, function (error) {
+                                iap.validate(iap.AMAZON, receipt, function (error, errorRes) {
                                         assert.notEqual(error, null);
                                         assert.notEqual(error.message.indexOf('https://appstore-sdk.amazon.com'), -1);
+                                        assert.equal(errorRes.sandbox, false);
                                         done();
                                 });
                         });
