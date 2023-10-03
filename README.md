@@ -1,7 +1,9 @@
-![Node.js CI](https://github.com/BonnierNews/in-app-purchase/workflows/Node.js%20CI/badge.svg)
-
-## BonnierNews Fork
-This is a fork of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) of Voltrue's [in-app-purchase repo](https://github.com/voltrue2/in-app-purchase) which is the npm package [in-app-purchase](https://www.npmjs.com/package/in-app-purchase).
+## Fork
+This is a fork
+of BonnierNews [fork](https://github.com/BonnierNews/in-app-purchase)
+of FlatIO's [fork](https://github.com/FlatIO/in-app-purchase) 
+of Voltrue's [in-app-purchase repo](https://github.com/voltrue2/in-app-purchase)
+which is the npm package [in-app-purchase](https://www.npmjs.com/package/in-app-purchase).
 
 The original package hasn't been updated since 2019, and the FlatIO fork has introduced some behaviour that we don't want to replicate, hence our own fork. The intention is to keep this fork up to date with security patches only.
 
@@ -27,9 +29,9 @@ Thank you for the input [maxs15](https://github.com/maxs15)
 
 ## Required node.js version
 
-`>=16 <= 18`
+`>=16`
 
-## Online Demo and Documention
+## Online Demo and Documentation
 
 <a href="http://iap.gracenode.org" target="_blank">Online Demo</a>
 
